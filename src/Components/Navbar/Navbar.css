@@ -73,3 +73,8 @@ nav > a:hover {
 .others {
     margin: 30px;
 }
+
+.navLink a:hover,
+.navLink a.active{
+    color: var(--primary-hover);
+}
