@@ -78,3 +78,22 @@ nav > a:hover {
 .navLink a.active{
     color: var(--primary-hover);
 }
+
+.Btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(0, 166, 255);
+    border: 1px solid rgb(140, 0, 255);
+    border-radius: 8px;
+}
+
+.Btn:hover{
+    background-color: rgb(0, 146, 255);
+}
+
+.Btn:active{
+    background-color: rgb(0, 106, 255);
+}
